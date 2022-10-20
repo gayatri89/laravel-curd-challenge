@@ -13,25 +13,17 @@
   <div class="min-w-screen min-h-scree flex items-center justify-center bg-gray-100 font-sans overflow-hidden">
     <div class="w-full max-w-3xl">
     
-
       <div class="bg-white shadow-md rounded my-6 overflow-scroll">
 
-        <table class="min-w-max w-full table-auto ">
+        <table class="min-w-max w-full table-auto sortable">
 
           @include('layouts.theader')
          
-          <tbody class="text-gray-600 text-sm font-light">
-            @foreach($users as $value)
-              <tr class="border-b border-gray-200 hover:bg-gray-100">
-              <td class="py-3 px-6 text-left whitespace-nowrap">{{$value->id}}</td>
-              <td class="py-3 px-6 text-left whitespace-nowrap">{{$value->first_name}}</td>
-              <td class="py-3 px-6 text-left whitespace-nowrap">{{$value->last_name}}</td>
-              <td class="py-3 px-6 text-left whitespace-nowrap">{{$value->email_address}}</td>
-              </tr>
-            @endforeach
-          </tbody>
+          @include('layouts.tbody')
+
         </table>
       </div>
+
     </div>
   </div> 
 </div>

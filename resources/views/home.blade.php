@@ -12,12 +12,11 @@
 <div class="overflow-x-auto flex-1">
   <div class="min-w-screen min-h-scree flex items-center justify-center bg-gray-100 font-sans overflow-hidden">
     <div class="w-full max-w-3xl">
-    
 
       <div class="py-3 px-6 bg-white shadow-md my-6 ">
 
         <p>
-        Hey Tech Team,
+           Hey Tech Team,
         </p>
       </div>
     </div>

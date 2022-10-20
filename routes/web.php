@@ -15,7 +15,7 @@ use App\Http\Controllers\Controller;
 */
 
 Route::get('/', function () {
-    return view('users');
+    return view('home');
 });
 
 Route::get('/users', [Controller::class, 'getUsers']);

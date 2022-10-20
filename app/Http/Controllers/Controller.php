@@ -14,6 +14,8 @@ class Controller extends BaseController
 
     function getUsers()
     {
-        return User::all();
+        return view('users',[
+            'users' => User::all()
+        ]);
     }
 }
